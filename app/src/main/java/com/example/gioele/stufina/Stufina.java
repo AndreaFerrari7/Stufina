@@ -144,6 +144,7 @@ public class Stufina extends AppCompatActivity {
 
                     //video.setVideoURI(Uri.parse(link + ((random.nextInt(3) + 1)) + ".mp4"));
                     int daVedere = genera();
+                    int risolvi_bug = 2;
                     try {
                         video.setVideoURI(Uri.parse(link + (daVedere) + ".mp4"));
                     }catch(Exception e){
